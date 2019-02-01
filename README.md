@@ -1,19 +1,19 @@
-material-ui-pagination
+mui-pagination
 ===
 
 A pagination component for React built with material-ui. Makes use of [ToggleButton](https://material-ui.com/lab/toggle-button/) with [pagination-generator-js](https://github.com/zarkoselak/pagination-generator-js/) by Zarko Selak.
 
 ### Install
 ```bash
-$ npm i -S material-ui-pagination
+$ npm i -S mui-pagination
 # or with yarn
-$ yarn add material-ui-pagination
+$ yarn add mui-pagination
 ```
 
 ### Usage
 ```js
 import React, { Component } from 'react'
-import Pagination from 'material-ui-pagination'
+import Pagination from 'mui-pagination'
 
 class PaginatedList extends Component {
   state = {
