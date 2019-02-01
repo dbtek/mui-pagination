@@ -1,0 +1,17 @@
+{
+  "name": "mui-pagination",
+  "version": "1.0.0",
+  "description": "A pagination component for React built with material-ui v1.",
+  "keywords": ["material", "material-ui", "pagination", "react", "component", "paginate"],
+  "main": "index.js",
+  "repository": "https://github.com/dbtek/material-ui-pagination",
+  "author": "Ismail Demirbilek <ce.demirbilek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^3.0.0-alpha.29",
+    "pagination-generator-js": "^1.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0"
+  }
+}
