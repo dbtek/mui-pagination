@@ -43,5 +43,17 @@ class PaginatedList extends Component {
 }
 ```
 
+### API
+
+**Props***  
+`totalItems` `{Number} *`  
+Total number of items.  
+
+`itemsPerPage` `{Number} *`  
+Items to show on each page.  
+
+`page` `{Number} *`  
+Current page number.  
+
 ### Author
 Ismail Demirbilek - [@dbtek](https://twitter.com/dbtek)
