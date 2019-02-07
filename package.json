@@ -10,7 +10,7 @@
     "component",
     "paginate"
   ],
-  "main": "index.js",
+  "main": "dist/Pagination.js",
   "repository": "https://github.com/dbtek/material-ui-pagination",
   "author": "Ismail Demirbilek <ce.demirbilek@gmail.com>",
   "license": "MIT",
@@ -20,5 +20,13 @@
     "pagination-generator-js": "^1.0.2",
     "prop-types": "^15.6.2",
     "react": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "build": "cd src&&babel *.js --out-dir ../dist"
   }
 }
