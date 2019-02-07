@@ -11,9 +11,7 @@ const Pagination = props => {
 
   let pages
   if (totalItems <= itemsPerPage) {
-    pages = [{
-      value: 1
-    }]
+    return null
   } else {
     pages = generate({
       total: totalItems,
