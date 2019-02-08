@@ -11,7 +11,7 @@
     "paginate"
   ],
   "main": "dist/Pagination.js",
-  "repository": "https://github.com/dbtek/material-ui-pagination",
+  "repository": "https://github.com/dbtek/mui-pagination",
   "author": "Ismail Demirbilek <ce.demirbilek@gmail.com>",
   "license": "MIT",
   "dependencies": {
