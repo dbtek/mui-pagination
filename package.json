@@ -1,6 +1,6 @@
 {
   "name": "mui-pagination",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A pagination component for React built with material-ui v1.",
   "keywords": [
     "material",
